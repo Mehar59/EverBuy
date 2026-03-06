@@ -37,7 +37,7 @@ const loginUser = async (req, res) => {
         res.json({ success: false, message: error.message })
     }
 }
-
+ 
 // Route for user register
 const registerUser = async (req, res) => {
     try {
