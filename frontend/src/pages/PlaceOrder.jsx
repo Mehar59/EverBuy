@@ -30,7 +30,7 @@ const PlaceOrder = () => {
 
     const initPay = (order) => {
         const options = {
-            key: import.meta.env.VITE_RAZORPAY_KEY_ID,
+            key: 'rzp_test_1DP5mmOlF5G5ag',
             amount: order.amount,
             currency: order.currency,
             name:'Order Payment',
